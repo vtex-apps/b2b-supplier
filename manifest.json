@@ -1,0 +1,21 @@
+{
+  "vendor": "vtex",
+  "name": "b2b-supplier",
+  "version": "0.0.0",
+  "title": "B2B Supplier",
+  "description": "A app for b2b suppliers, with components related to authentication and authorization",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "pages": "1.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

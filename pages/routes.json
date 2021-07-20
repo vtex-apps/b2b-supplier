@@ -1,0 +1,6 @@
+{
+  "store/b2b-supplier.creating-buyer-org": {
+    "component": "CreatingBuyerOrgScreen",
+    "path": "/creating-buyer-org"
+  }
+}
