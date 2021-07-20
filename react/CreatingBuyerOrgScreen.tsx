@@ -5,6 +5,7 @@ import VtexLogoFull from './assests/VtexLogoFull'
 import PinkDots from './assests/PinkDots'
 import './styles.global.css'
 
+
 const CreatingBuyerOrgScreen = () => {
   return (
     <div className="flex flex-row items-center justify-center vw-100 vh-100">
