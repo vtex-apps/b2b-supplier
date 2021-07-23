@@ -5,22 +5,21 @@ import VtexLogoFull from './assests/VtexLogoFull'
 import PinkDots from './assests/PinkDots'
 import './styles.global.css'
 
-
-const CreatingBuyerOrgScreen = () => {
+const CreatingBuyerOrg = () => {
   return (
-    <div className="flex flex-row items-center justify-center vw-100 vh-100">
+    <div className="pv8">
       <div
-        className="flex flex-column items-center"
+        className="flex flex-column items-center pv8"
         data-cy="create-account-wrapper"
       >
         <div className="h2 mb7">
-          <VtexLogoFull />
+          <VtexLogoFull/>
         </div>
         <div className="flex flex-row mt5">
-          <PinkDots />
+          <PinkDots/>
           <div className="ml4">
             <p className="t-heading-4">
-              <FormattedMessage id="store/b2b-supplier.creating-buyer-org" />
+              <FormattedMessage id="store/b2b-supplier.creating-buyer-org"/>
             </p>
           </div>
         </div>
@@ -29,4 +28,4 @@ const CreatingBuyerOrgScreen = () => {
   )
 }
 
-export default CreatingBuyerOrgScreen
+export default CreatingBuyerOrg
