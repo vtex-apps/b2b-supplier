@@ -1,0 +1,10 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "vtex.b2b-supplier": "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.0.0+build1627059370/public/@types/vtex.b2b-supplier",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide"
+  },
+  "dependencies": {
+    "@vtex/api": "6.43.1"
+  }
+}
