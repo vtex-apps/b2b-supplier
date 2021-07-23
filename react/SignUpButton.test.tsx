@@ -6,5 +6,6 @@ import SignUpButton from './SignUpButton'
 test('Should appear', () => {
   const { queryByTestId } = render(<SignUpButton />)
 
+  
   expect(queryByTestId('signup-button')).toBeInTheDocument()
 })
