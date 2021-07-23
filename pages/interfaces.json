@@ -1,8 +1,0 @@
-{
-  "store/b2b-supplier": {
-    "component": "CreatingBuyerOrgScreen"
-  },
-  "store/b2b-supplier.creating-buyer-org": {
-    "component": "CreatingBuyerOrgScreen"
-  }
-}
