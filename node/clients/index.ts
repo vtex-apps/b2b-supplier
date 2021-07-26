@@ -1,3 +1,9 @@
 import { IOClients } from '@vtex/api'
 
-export class Clients extends IOClients {}
+import { ProfileSystemClient } from './profileSystem'
+
+export class Clients extends IOClients {
+  public get profileSystem() {
+    return this.getOrSet('profileSystem', ProfileSystemClient)
+  }
+}
