@@ -1,14 +1,14 @@
 import type { MutationAddBuyerOrgToSupplierArgs } from 'vtex.b2b-supplier'
 import jwt from 'jsonwebtoken'
 
-const PRIVATE_KEY = process.env.PRIVATE_KEY ?? ''
+const PRIVATE_KEY = process.env.PRIVATE_KEY ?? 'KEY_TEST'
 
 type BuyerOrg = {
   approved: boolean
   email: string
   isCorporate: boolean
   corporateDocument: string
-  firstName: string
+  companyName: string
 }
 
 const addBuyerOrgToSupplier = async (
@@ -24,6 +24,7 @@ const addBuyerOrgToSupplier = async (
 
     const profile = {
       ...(payload as BuyerOrg),
+      firstName: (payload as BuyerOrg).companyName,
       approved: false,
       isCorporate: true,
     }
