@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jsonwebtoken": "^8.5.4",
+    "vtex.b2b-supplier": "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.0.0+build1627314173/public/@types/vtex.b2b-supplier",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide"
+  },
+  "dependencies": {
+    "@vtex/api": "6.44.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

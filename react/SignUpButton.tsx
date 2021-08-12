@@ -1,18 +1,15 @@
-import React from 'react'
-import { Button } from 'vtex.styleguide'
-import { FormattedMessage } from 'react-intl'
-import { useRuntime } from 'vtex.render-runtime'
+import React from "react";
+import { Button } from "vtex.styleguide";
+import { FormattedMessage } from "react-intl";
 
-const SIGN_UP_URL = 'https://gsasouza--b2bstore.myvtex.com/buyer'
+const SIGN_UP_URL = "https://gsasouza--b2bstore.myvtex.com/buyer";
 
 const SignUpButton = () => {
-  const { account } = useRuntime()
 
   const handleNavigate = () => {
-    const qs = new URLSearchParams({ supplier: account }).toString()
 
-    window.location.href = `${SIGN_UP_URL}?${qs}`
-  }
+    window.location.href = SIGN_UP_URL;
+  };
 
   return (
     <div className="flex items-center">
@@ -27,7 +24,7 @@ const SignUpButton = () => {
         </span>
       </Button>
     </div>
-  )
-}
+  );
+};
 
-export default SignUpButton
+export default SignUpButton;

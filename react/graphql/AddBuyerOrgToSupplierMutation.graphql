@@ -1,0 +1,5 @@
+mutation ($input: AddBuyerOrgToSupplierInput!) {
+  addBuyerOrgToSupplier(input: $input) {
+    error
+  }
+}
