@@ -29,8 +29,6 @@ const addBuyerOrgToSupplier = async (
       isCorporate: true,
     }
 
-    console.log({ profile })
-
     await profileSystem.createProfile(profile)
 
     return {
