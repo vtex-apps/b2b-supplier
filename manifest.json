@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "b2b-supplier",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "title": "B2B Supplier",
   "description": "A app for b2b suppliers, with components related to authentication and authorization",
   "builders": {
