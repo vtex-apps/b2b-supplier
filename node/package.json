@@ -7,7 +7,7 @@
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide"
   },
   "dependencies": {
-    "@vtex/api": "6.44.0",
+    "@vtex/api": "6.45.3",
     "jsonwebtoken": "^8.5.1"
   }
 }

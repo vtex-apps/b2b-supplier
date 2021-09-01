@@ -1,20 +1,29 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import { useMutation } from 'react-apollo'
+import { useRuntime } from 'vtex.render-runtime'
 
 import AddBuyerOrgToSupplierMutation from './graphql/AddBuyerOrgToSupplierMutation.graphql'
 import VtexLogoFull from './assests/VtexLogoFull'
 import PinkDots from './assests/PinkDots'
+
 import './styles.global.css'
 
 const CreatingBuyerOrg = () => {
+  const { navigate } = useRuntime()
   const [mutate] = useMutation(AddBuyerOrgToSupplierMutation)
 
   React.useEffect(() => {
-    const token = new URLSearchParams(window.location.search).get('token') ?? ''
+    ;(async () => {
+      const token =
+        new URLSearchParams(window.location.search).get('token') ?? ''
 
-    if (token) mutate({ variables: { input: { token } } })
-  }, [mutate])
+      if (token) {
+        await mutate({ variables: { input: { token } } })
+        navigate({ to: '/' })
+      }
+    })()
+  }, [mutate, navigate])
 
   return (
     <div className="pv8">
