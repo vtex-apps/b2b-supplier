@@ -2,9 +2,15 @@ import React from 'react'
 import { Button } from 'vtex.styleguide'
 import { FormattedMessage } from 'react-intl'
 
+import { isLoggedIn, useSession } from './session'
+
 const SIGN_UP_URL = 'https://b2bstore.myvtex.com/buyer'
 
 const SignUpButton = () => {
+  const session = useSession()
+
+  if (isLoggedIn(session)) return null
+
   const handleNavigate = () => {
     window.location.href = SIGN_UP_URL
   }
