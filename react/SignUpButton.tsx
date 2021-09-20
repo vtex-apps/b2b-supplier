@@ -11,15 +11,22 @@ const SignUpButton = () => {
 
   if (isLoggedIn(session)) return null
 
+  const handleNavigate = () => {
+    window.location.href = SIGN_UP_URL
+  }
+
   return (
     <div className="flex items-center">
-      <a href={SIGN_UP_URL} referrerPolicy="no-referrer-when-downgrade">
-        <Button variation="tertiary" size="regular" data-testid="signup-button">
-          <span className="f6 gray">
-            <FormattedMessage id="store/b2b-auth.signup" />
-          </span>
-        </Button>
-      </a>
+      <Button
+        variation="tertiary"
+        size="regular"
+        data-testid="signup-button"
+        onClick={handleNavigate}
+      >
+        <span className="f6 gray">
+          <FormattedMessage id="store/b2b-auth.signup" />
+        </span>
+      </Button>
     </div>
   )
 }
