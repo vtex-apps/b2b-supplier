@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl'
 
 import { isLoggedIn, useSession } from './session'
 
-const SIGN_UP_URL = 'https://b2bstore.myvtex.com/buyer'
+const SIGN_UP_URL = 'https://join.vtex.com/buyer'
 
 const SignUpButton = () => {
   const session = useSession()
