@@ -1,6 +1,6 @@
 {
   "name": "b2b-supplier",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "scripts": {
     "test": "vtex-test-tools test"
   },
