@@ -5,7 +5,7 @@ import { useRuntime } from 'vtex.render-runtime'
 
 import { isLoggedIn, useSession } from './session'
 
-const SIGN_UP_URL = 'https://gsasouza--marketplaceseller.myvtex.com/buyer'
+const SIGN_UP_URL = 'https://join.vtex.com/buyer'
 
 const SignUpButton = () => {
   const { account } = useRuntime()
