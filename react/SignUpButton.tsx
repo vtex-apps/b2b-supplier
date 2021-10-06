@@ -1,18 +1,22 @@
 import React from 'react'
 import { Button } from 'vtex.styleguide'
 import { FormattedMessage } from 'react-intl'
+import { useRuntime } from 'vtex.render-runtime'
 
 import { isLoggedIn, useSession } from './session'
 
 const SIGN_UP_URL = 'https://join.vtex.com/buyer'
 
 const SignUpButton = () => {
+  const { account } = useRuntime()
   const session = useSession()
 
   if (isLoggedIn(session)) return null
 
   const handleNavigate = () => {
-    window.location.href = SIGN_UP_URL
+    const qs = new URLSearchParams({ ac: account })
+
+    window.location.href = `${SIGN_UP_URL}?${qs}`
   }
 
   return (
