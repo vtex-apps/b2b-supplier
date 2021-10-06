@@ -14,7 +14,7 @@ const SignUpButton = () => {
   if (isLoggedIn(session)) return null
 
   const handleNavigate = () => {
-    const qs = new URLSearchParams({ ac: account })
+    const qs = new URLSearchParams({ account })
 
     window.location.href = `${SIGN_UP_URL}?${qs}`
   }
