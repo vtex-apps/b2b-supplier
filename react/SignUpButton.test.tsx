@@ -3,7 +3,8 @@ import { render } from '@vtex/test-tools/react'
 
 import SignUpButton from './SignUpButton'
 
-test('Should appear', () => {
+test('Should render', () => {
   const { queryByTestId } = render(<SignUpButton />)
+
   expect(queryByTestId('signup-button')).toBeInTheDocument()
 })

@@ -1,12 +1,9 @@
 {
   "b2b-supplier": {
-    "component": "CreatingBuyerOrg"
+    "component": "SignUpButton"
   },
-  "b2b-supplier.creating-buyer-org": {
-    "component": "CreatingBuyerOrg"
-  },
-  "b2b-supplier.not-approved-message": {
-    "component": "NotApprovedMessage"
+  "b2b-supplier.approved-status": {
+    "component": "ApprovedStatus"
   },
   "b2b-supplier.signup-button": {
     "component": "SignUpButton"
