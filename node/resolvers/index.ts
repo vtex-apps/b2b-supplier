@@ -1,8 +1,7 @@
-import addBuyerOrgToSupplier from './addBuyerOrgToSuppiler'
+import supplierMeta from './supplierMeta'
 
 export const resolvers = {
-  Query: {},
-  Mutation: {
-    addBuyerOrgToSupplier,
+  Query: {
+    supplierMeta,
   },
 }

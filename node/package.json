@@ -3,7 +3,7 @@
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/jsonwebtoken": "^8.5.4",
-    "vtex.b2b-supplier": "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier",
+    "vtex.b2b-supplier": "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@1.0.0+build1634157192/public/@types/vtex.b2b-supplier",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide"
   },
