@@ -4946,13 +4946,17 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.0.0+build1627314173/public/@types/vtex.b2b-supplier":
-  version "0.0.0"
-  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.0.0+build1627314173/public/@types/vtex.b2b-supplier#087a0f42eb4ff4a4d228b19eefcf95285461b5c3"
+"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier":
+  version "0.5.0"
+  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier#0c8e8a623f51d96bd9c29cc0c7d618423a734fec"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.130.0/public/@types/vtex.render-runtime":
-  version "8.130.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.130.0/public/@types/vtex.render-runtime#6958e1017c423c0906eae3500bad70d3fb353a98"
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
+  version "0.4.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
+
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime":
+  version "8.132.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime#c7dd142e384f38bd7a7c841543b73e9349fadc93"
 
 "vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide":
   version "9.145.0"

@@ -1333,7 +1333,7 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-"stats-lite@github:vtex/node-stats-lite#dist":
+stats-lite@vtex/node-stats-lite#dist:
   version "2.2.0"
   resolved "https://codeload.github.com/vtex/node-stats-lite/tar.gz/1b0d39cc41ef7aaecfd541191f877887a2044797"
   dependencies:
@@ -1480,9 +1480,13 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.0.0+build1627314173/public/@types/vtex.b2b-supplier":
-  version "0.0.0"
-  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.0.0+build1627314173/public/@types/vtex.b2b-supplier#087a0f42eb4ff4a4d228b19eefcf95285461b5c3"
+"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier":
+  version "0.5.0"
+  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier#0c8e8a623f51d96bd9c29cc0c7d618423a734fec"
+
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
+  version "0.4.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
 
 "vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide":
   version "9.145.0"
