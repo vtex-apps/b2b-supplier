@@ -1480,9 +1480,9 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier":
-  version "0.5.0"
-  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@0.5.0+build1633548071/public/@types/vtex.b2b-supplier#0c8e8a623f51d96bd9c29cc0c7d618423a734fec"
+"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@1.0.0+build1634157192/public/@types/vtex.b2b-supplier":
+  version "1.0.0"
+  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@1.0.0+build1634157192/public/@types/vtex.b2b-supplier#3da8130351887359aba7132f4f58148a94b121cd"
 
 "vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
   version "0.4.4"
