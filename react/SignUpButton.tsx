@@ -19,7 +19,6 @@ const SignUpButton = () => {
   if (isLoggedIn(session)) return null
 
   const handleNavigate = () => {
-    console.log(data?.supplierMeta)
     const qs = new URLSearchParams({ supplier: data?.supplierMeta })
 
     window.location.href = `${SIGN_UP_URL}?${qs}`
