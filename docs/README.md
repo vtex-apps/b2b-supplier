@@ -8,37 +8,51 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-This app provides B2B authentication  and authorization features
+The **B2B Supplier** app allows you, as a supplier, to enable customers to sign up and log in as Buyer Organizations in your store. It enables components related to authentication and authorization of users and Buyer Organizations.
 
-## Configuration 
+## Installation
 
-1. Adding the app as a theme dependency in the `manifest.json` file;
-2. Declaring the app's block in a given theme template or inside another block from the theme.
+To install the **B2B Supplier** app, you must follow the steps below.
 
-### `SignUpButton` props
+1. Run the following command on your CLI:
 
-| Prop name    | Type            | Description    | Default value                                                                                                                               |
-| ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+    ```
+    vtex install vtex.b2b-supplier
+    ```
 
 
-### `ApprovedStatus` props
+2. Add the app as a dependency in your theme’s `manifest.json` file, as follows:
 
-| Prop name    | Type            | Description    | Default value                                                                                                                               |
-| ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
+    ```json
+    "dependencies": {
+    "vtex.b2b-supplier": "0.x"
+    }
+    ```
+
+
+3. Declare the following blocks in a given theme template or inside another block from the theme.
+
+| Block name | Description |
+| ----------- |  ----------- | 
+| `b2b-supplier.sign-up-button` | Renders a `Sign up` button that leads users to the form where they can sign up as a Buyer Organization. |
+| `b2b-supplier.approved-status` | Renders an alert informing the Buyer Organization user of their approval status in your store. |
+
+After the installation, it will be possible for buyers to Sign up as a Buyer Organization in your store or for you to create and manage Buyer Organizations via API.
+
+>⚠️ Remember that every time a new Buyer Organization signs up, it is necessary for the supplier to approve their access on Master Data.
+
 
 ## Customization
 
-The first thing that should be present in this section is the sentence below, showing users the recipe pertaining to CSS customization in apps:
+In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-using-css-handles-for-store-customization).
 
-`In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).`
-
-Thereafter, you should add a single column table with the available CSS handles for the app, like the one below. Note that the Handles must be ordered alphabetically.
 
 | CSS Handles |
 | ----------- | 
 | `container` | 
 | `button` | 
 | `label` |
+
 
 <!-- DOCS-IGNORE:start -->
 
