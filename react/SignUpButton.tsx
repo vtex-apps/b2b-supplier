@@ -8,7 +8,7 @@ import { useRuntime } from 'vtex.render-runtime'
 import SignUpButtonQuery from './graphql/SignUpButtonQuery.graphql'
 import { isLoggedIn, useSession } from './session'
 
-const SIGN_UP_URL = 'https://gsasouza--b2bstore.myvtex.com/buyer'
+const SIGN_UP_URL = 'https://join.vtex.com/buyer'
 const SIGN_UP_ROUTE = '/signup'
 
 const useSignUpStart = (handleRedirectSignup: () => void) => {
