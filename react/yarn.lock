@@ -4946,6 +4946,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+"vtex.b2b-supplier@https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@2.1.0+build1634845096/public/@types/vtex.b2b-supplier":
+  version "2.1.0"
+  resolved "https://gsasouza--b2bstore.myvtex.com/_v/private/typings/linked/v1/vtex.b2b-supplier@2.1.0+build1634845096/public/@types/vtex.b2b-supplier#826c1ff84cbe9673e6cce16ab5e8b4b653a9b720"
+
 "vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
   version "0.4.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"

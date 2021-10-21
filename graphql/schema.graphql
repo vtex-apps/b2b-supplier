@@ -1,3 +1,3 @@
 type Query {
-  supplierMeta: String!
+  supplierMeta(countries: [String!]!): String!
 }
