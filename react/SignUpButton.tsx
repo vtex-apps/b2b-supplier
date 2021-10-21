@@ -20,11 +20,11 @@ const useSignUpStart = (handleRedirectSignup: () => void) => {
 }
 
 type Props = {
-  countries: string[]
+  countries?: string[]
 }
 
 const SignUpButton: React.FC<Props> = (props) => {
-  const { countries = ['BRA'] } = props
+  const { countries = ['BRA', 'USA'] } = props
   const { data } = useQuery(SignUpButtonQuery, {
     variables: { countries },
     ssr: false,
