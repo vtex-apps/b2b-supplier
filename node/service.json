@@ -1,0 +1,19 @@
+{
+  "memory": 256,
+  "ttl": 60,
+  "timeout": 120,
+  "minReplicas": 2,
+  "maxReplicas": 5,
+  "routes": {
+    "keep-alive": {
+      "path": "/_v/vtex.b2b-supplier/keep-alive",
+      "public": true,
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": ["get"]
+        }
+      ]
+    }
+  }
+}
