@@ -11,8 +11,17 @@ declare global {
   type Context = ServiceContext
 }
 
+const keepAlive = async (ctx: Context) => {
+  ctx.set('Cache-Control', 'no-cache')
+  ctx.status = 200
+}
+
 // Export a service that defines route handlers and client options.
 export default new Service({
+  clients,
+  routes: {
+    'keep-alive': method({ GET: keepAlive }),
+  },
   graphql: {
     resolvers,
   },
