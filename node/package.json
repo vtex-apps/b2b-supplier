@@ -10,5 +10,5 @@
     "@vtex/api": "6.45.4",
     "jsonwebtoken": "^8.5.1"
   },
-  "version": "2.1.0"
+  "version": "2.2.0"
 }
