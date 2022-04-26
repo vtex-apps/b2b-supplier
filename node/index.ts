@@ -1,5 +1,5 @@
 import type { ServiceContext } from '@vtex/api'
-import { LRUCache, Service } from '@vtex/api'
+import { LRUCache, method, Service } from '@vtex/api'
 
 import { resolvers } from './resolvers'
 
@@ -18,7 +18,6 @@ const keepAlive = async (ctx: Context) => {
 
 // Export a service that defines route handlers and client options.
 export default new Service({
-  clients,
   routes: {
     'keep-alive': method({ GET: keepAlive }),
   },
