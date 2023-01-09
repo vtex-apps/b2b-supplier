@@ -1,5 +1,5 @@
 {
-  "store/b2b-approved-message.message": "Sua organização não foi aprovada para fazer pedidos nesta loja no momento. Se já está assim há algum tempo e você acha que isso é um erro, entre em contato conosco.",
-  "store/b2b-auth.signup": "Registrar",
+  "store/b2b-approved-message.message": "Sua organização não foi aprovada para fazer pedidos nesta loja. Se essa situação já está assim há algum tempo e você acha que pode ser um erro, entre em contato conosco.",
+  "store/b2b-auth.signup": "Cadastre-se",
   "store/b2b-supplier.creating-buyer-org": "Criando organização de compradores no fornecedor"
 }
