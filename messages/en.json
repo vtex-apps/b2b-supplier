@@ -1,5 +1,5 @@
 {
-  "store/b2b-approved-message.message": "Your organization is not approved to place orders on this store right now. If it’s been like this for a while and you think this is a mistake, please contact us.",
+  "store/b2b-approved-message.message": "Your organization is not approved to place orders in this store right now. If it’s been like this for a while and you think this is a mistake, please contact us.",
   "store/b2b-auth.signup": "Sign Up",
   "store/b2b-supplier.creating-buyer-org": "Creating buyer organization in supplier"
 }
