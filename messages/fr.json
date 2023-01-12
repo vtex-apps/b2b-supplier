@@ -1,0 +1,5 @@
+{
+  "store/b2b-approved-message.message": "Votre organisation n'est pas autorisée à passer des commandes sur ce magasin pour le moment. Si cela a été comme ça pendant un certain temps et que vous pensez que c'est une erreur, veuillez nous contacter.",
+  "store/b2b-auth.signup": "S'inscrire",
+  "store/b2b-supplier.creating-buyer-org": "Créer une organisation d'acheteurs dans fournisseur"
+}
