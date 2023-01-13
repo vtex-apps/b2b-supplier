@@ -1,0 +1,5 @@
+{
+  "store/b2b-approved-message.message": "귀하의 조직은 현재 이 스토어에서 주문하도록 승인되지 않았습니다. 한동안 이러다가 실수라고 생각되시면 연락주세요.",
+  "store/b2b-auth.signup": "등록",
+  "store/b2b-supplier.creating-buyer-org": "공급자에서 구매자 조직 생성"
+}
