@@ -1,0 +1,5 @@
+{
+  "store/b2b-approved-message.message": "Din organisation är inte godkänd att göra beställningar i denna butik just nu. Om det har varit så här ett tag och du anser att detta är ett misstag, vänligen kontakta oss.",
+  "store/b2b-auth.signup": "Skapa konto",
+  "store/b2b-supplier.creating-buyer-org": "Skapar köparorganisation i leverantör"
+}
