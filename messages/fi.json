@@ -1,0 +1,5 @@
+{
+  "store/b2b-approved-message.message": "Organisaatiosi ei ole saanut hyväksyntää tehdä tilauksia tässä kaupassa juuri nyt. Jos tilanne on kestänyt jo hetken ja uskot tämän olevan virhe, ota meihin yhteyttä.",
+  "store/b2b-auth.signup": "Rekisteröidy",
+  "store/b2b-supplier.creating-buyer-org": "Ostajaorganisaation luonti toimittajalle"
+}
