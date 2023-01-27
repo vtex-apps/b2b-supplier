@@ -9,12 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- English and Portuguese translations.
+- English, Spanish and Portuguese translations.
 - Crowdin configuration file.
 
 ### Added
 
-- Bulgarian, French, Italian, Korean, Dutch, Romanian and Thai translations.
+- Arabic, Catalan, Czech, Danish, Greek, Finnish, Indonesian, Norwegian, Polish, Russian, Slovakian, Slovenian, Swedish, Ukrainian, Bulgarian, French, Italian, Korean, Dutch, Romanian and Thai translations.
 
 ## [2.2.0] - 2022-04-26
 
