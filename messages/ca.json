@@ -1,0 +1,5 @@
+{
+  "store/b2b-approved-message.message": "La vostra empresa no disposa de l'aprovació necessària per fer comandes a aquesta botiga ara mateix. Si aquesta situació fa temps que es produeix i creieu que es tracta d'un error, poseu-vos en contacte amb nosaltres.",
+  "store/b2b-auth.signup": "Registra't",
+  "store/b2b-supplier.creating-buyer-org": "S'està creant l'empresa del comprador a la base de dades del proveïdor"
+}

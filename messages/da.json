@@ -1,0 +1,5 @@
+{
+  "store/b2b-approved-message.message": "Din organisation er ikke godkendt til at placere ordrer i denne butik lige nu. Hvis det har været sådan i et stykke tid, og du mener, at der er tale om en fejl, bedes du kontakte os.",
+  "store/b2b-auth.signup": "Tilmeld",
+  "store/b2b-supplier.creating-buyer-org": "Oprettelse af en køberorganisation hos leverandøren"
+}
