@@ -41,6 +41,12 @@ After the installation, it will be possible for buyers to Sign up as a Buyer Org
 
 >⚠️ Remember that every time a new Buyer Organization signs up, it is necessary for the supplier to approve their access on Master Data.
 
+### `sign-up-button` props
+
+| Prop name    | Type            | Description    | Default value                                                                                                                               |
+| ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
+| `countries`      | `string array`       | Country codes of store's supported countries     | `['BRA', 'USA']`        |
+
 
 ## Customization
 
