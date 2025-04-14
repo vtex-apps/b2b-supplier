@@ -19,8 +19,16 @@ const useSignUpStart = (handleRedirectSignup: () => void) => {
   }, [route.canonicalPath, handleRedirectSignup])
 }
 
-const SignUpButton = () => {
-  const { data } = useQuery(SignUpButtonQuery, { ssr: false })
+type Props = {
+  countries?: string[]
+}
+
+const SignUpButton: React.FC<Props> = (props) => {
+  const { countries = ['BRA', 'USA'] } = props
+  const { data } = useQuery(SignUpButtonQuery, {
+    variables: { countries },
+    ssr: false,
+  })
 
   const handles = useCssHandles(['container', 'button', 'label'])
 
